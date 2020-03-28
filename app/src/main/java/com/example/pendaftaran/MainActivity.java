@@ -45,7 +45,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         edtxt = (EditText) findViewById(R.id.pass);
-        txvw.setTransformationMethod(null);
+        edtxt.setTransformationMethod(null);
+        edtxt = (EditText) findViewById(R.id.ckpass);
+        edtxt.setTransformationMethod(null);
+
 
 
 
